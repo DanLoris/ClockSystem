@@ -30,7 +30,7 @@ jobs:
           egress-policy: audit
 
       - name: Checkout repository
-        uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2.7.0
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
 
       - name: Static Code Analysis with PMD
         uses: pmd/pmd-github-action@d57c0463ebba262a33d1983a5c6ac6031bfde43b # v1.4.1
