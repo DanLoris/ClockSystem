@@ -33,7 +33,7 @@ jobs:
         uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2.7.0
 
       - name: Static Code Analysis with PMD
-        uses: pmd/pmd-github-action@d57c0463ebba262a33d1983a5c6ac6031bfde43b # v1.4.1
+        uses: pmd/pmd-github-action@d9c1f3c5940cbf5923f1354e83fa858b4496ebaa # v2.0.0
         with:
           rulesets: 'java-basic'
           
